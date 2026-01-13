@@ -3,7 +3,7 @@ import LoginPage from "./pages/LoginPage";
 import QuizPage from "./pages/QuizPage";
 import ResultPage from "./pages/ResultPage";
 import ReviewPage from "./pages/ReviewPage";
-import WelcomePage from "./pages/WelcomePage"; // Import Baru
+import WelcomePage from "./pages/WelcomePage"; 
 
 function QuizApp() {
   const { state } = useQuiz();
@@ -35,7 +35,6 @@ function QuizApp() {
         </div>
       )}
 
-      {/* --- HALAMAN BARU: STATUS READY (WELCOME/RULES) --- */}
       {state.status === "ready" && <WelcomePage />}
 
       {state.status === "active" && <QuizPage />}

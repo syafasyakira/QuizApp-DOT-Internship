@@ -16,8 +16,8 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
-      <Card className="text-center">
-        <div className="mb-8">
+      <Card className="text-center max-w-md mx-auto">
+        <div className="mb-8 flex flex-col items-center">
           <h1 className="text-3xl font-bold text-slate-800 mb-2">
             Knowledge <span className="text-indigo-600">Quiz</span>
           </h1>
